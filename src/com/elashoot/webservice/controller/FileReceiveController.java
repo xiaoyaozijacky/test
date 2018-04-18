@@ -10,6 +10,7 @@ import com.elashoot.webservice.service.FileReceiveService;
 import com.elashoot.webservice.vo.EmailVO;
 import com.elashoot.webservice.vo.ProductVO;
 
+//文件测试
 @Controller
 @RequestMapping("/receive")
 public class FileReceiveController{
