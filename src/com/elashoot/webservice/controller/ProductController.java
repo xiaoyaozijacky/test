@@ -10,6 +10,9 @@ import com.elashoot.webservice.service.EmailService;
 import com.elashoot.webservice.vo.EmailVO;
 import com.elashoot.webservice.vo.ProductVO;
 
+/**
+ * 可以吗？已经改了很多了啊，应该上传
+ * */
 @Controller
 @RequestMapping("/product")
 public class ProductController{
