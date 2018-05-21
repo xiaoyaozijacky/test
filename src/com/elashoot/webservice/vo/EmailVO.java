@@ -1,5 +1,8 @@
 package com.elashoot.webservice.vo;
 
+/**
+ * 这是一个修改邮件的类
+ * */
 public class EmailVO{
     private String productName;
     private String email;

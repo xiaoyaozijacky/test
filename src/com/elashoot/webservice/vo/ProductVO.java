@@ -1,5 +1,8 @@
 package com.elashoot.webservice.vo;
 
+/**
+ * 产品类修改了
+ * */
 public class ProductVO{
     private String productName;
     private Double bestPrice;
