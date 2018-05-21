@@ -11,7 +11,7 @@ import com.elashoot.webservice.vo.EmailVO;
 import com.elashoot.webservice.vo.ProductVO;
 
 /**
- * 这回修改一个试试
+ * 这回修改一个试试，咋了？
  * */
 @Controller
 @RequestMapping("/product")
