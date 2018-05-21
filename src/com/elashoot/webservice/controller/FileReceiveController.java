@@ -10,7 +10,7 @@ import com.elashoot.webservice.service.FileReceiveService;
 import com.elashoot.webservice.vo.EmailVO;
 import com.elashoot.webservice.vo.ProductVO;
 
-//success 这是一条神奇的天路
+//success 
 @Controller
 @RequestMapping("/receive")
 public class FileReceiveController{
