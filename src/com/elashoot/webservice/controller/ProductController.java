@@ -10,6 +10,9 @@ import com.elashoot.webservice.service.EmailService;
 import com.elashoot.webservice.vo.EmailVO;
 import com.elashoot.webservice.vo.ProductVO;
 
+/**
+ * 这回修改一个试试
+ * */
 @Controller
 @RequestMapping("/product")
 public class ProductController{
