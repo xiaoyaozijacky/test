@@ -33,7 +33,7 @@ public class ProductController{
         ProductVO vo = new ProductVO();
         vo.setProductName("iPad Mini");
         vo.setBestPrice(130.00);
-        vo.setCurrency("abc");
+        vo.setCurrency("abcs");
         vo.setLocation("Walmart");
         return vo;
     }
