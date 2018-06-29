@@ -11,7 +11,7 @@ import com.elashoot.webservice.vo.EmailVO;
 import com.elashoot.webservice.vo.ProductVO;
 
 /**
- * 这里测试成本地先提交
+ * 这里测试一下122先提交
  * */
 @Controller
 @RequestMapping("/product")
@@ -32,8 +32,8 @@ public class ProductController{
         Logger.getLogger(this.getClass()).info("request parameter:" + name);
         ProductVO vo = new ProductVO();
         vo.setProductName("iPad Mini");
-        vo.setBestPrice(168.00);
-        vo.setCurrency("ccvv");
+        vo.setBestPrice(145.00);
+        vo.setCurrency("vvv");
         vo.setLocation("Walmart");
         return vo;
     }
@@ -51,5 +51,11 @@ public class ProductController{
         Logger.getLogger(this.getClass()).info("request parameter:" + email);
         int status = emailService.sendEmail(email);
         Logger.getLogger(this.getClass()).info("alert result" + status);
+    }
+
+    @RequestMapping("/add")
+    @ResponseBody
+    public void add(String name){
+        System.out.println("123");
     }
 }
