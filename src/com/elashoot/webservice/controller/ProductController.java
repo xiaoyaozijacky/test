@@ -32,8 +32,8 @@ public class ProductController{
         Logger.getLogger(this.getClass()).info("request parameter:" + name);
         ProductVO vo = new ProductVO();
         vo.setProductName("iPad Mini");
-        vo.setBestPrice(150.00);
-        vo.setCurrency("CAD");
+        vo.setBestPrice(140.00);
+        vo.setCurrency("CADB");
         vo.setLocation("Walmart");
         return vo;
     }
