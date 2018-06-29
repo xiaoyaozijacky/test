@@ -11,7 +11,7 @@ import com.elashoot.webservice.vo.EmailVO;
 import com.elashoot.webservice.vo.ProductVO;
 
 /**
- * 测试一下122提交的
+ * 测试一下本地程序先提交
  * */
 @Controller
 @RequestMapping("/product")
