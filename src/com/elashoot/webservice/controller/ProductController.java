@@ -32,8 +32,8 @@ public class ProductController{
         Logger.getLogger(this.getClass()).info("request parameter:" + name);
         ProductVO vo = new ProductVO();
         vo.setProductName("iPad Mini");
-        vo.setBestPrice(130.00);
-        vo.setCurrency("abcs");
+        vo.setBestPrice(145.00);
+        vo.setCurrency("vvv");
         vo.setLocation("Walmart");
         return vo;
     }
@@ -51,5 +51,11 @@ public class ProductController{
         Logger.getLogger(this.getClass()).info("request parameter:" + email);
         int status = emailService.sendEmail(email);
         Logger.getLogger(this.getClass()).info("alert result" + status);
+    }
+	
+	@RequestMapping("/add")
+    @ResponseBody
+    public void add(String name){
+        
     }
 }
